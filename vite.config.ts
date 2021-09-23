@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 // 如果编辑器提示 path 模块找不到，则可以安装一下 @types/node -> npm i @types/node -D
-import {resolve} from 'path'
-
-
+import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -22,9 +20,9 @@ export default defineConfig({
     // 设置服务启动自动打开浏览器
     open: true,
     // 允许跨域
-    cors: true,
+    cors: true
 
-     // 设置代理，根据我们项目实际情况配置
+    // 设置代理，根据我们项目实际情况配置
     // proxy: {
     //   '/api': {
     //     target: 'http://xxx.xxx.xxx.xxx:8000',

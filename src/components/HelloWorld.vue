@@ -1,16 +1,19 @@
 <script lang="ts">
-import { defineComponent } from 'vue'
-import axios from '../utils/axios'
+import { defineComponent } from 'vue';
+import axios from '../utils/axios';
 
 export default defineComponent({
   setup() {
-    axios.get('/users/XPoet').then((res) => {
-      console.log('res:', res)
-    }).catch((err) => {
-      console.log('err:', err)
-    })
+    axios
+      .get('/users/XPoet')
+      .then((res) => {
+        console.log('res:', res);
+      })
+      .catch((err) => {
+        console.log('err:', err);
+      });
   },
-})
+});
 </script>
 
 <template>
@@ -26,9 +29,7 @@ export default defineComponent({
   <p>See <code>README.md</code> for more information.</p>
 
   <p>
-    <a href="https://vitejs.dev/guide/features.html" target="_blank">
-      Vite Docs
-    </a>
+    <a href="https://vitejs.dev/guide/features.html" target="_blank"> Vite Docs </a>
     |
     <a href="https://v3.vuejs.org/" target="_blank">Vue 3 Docs</a>
   </p>
