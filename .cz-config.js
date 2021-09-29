@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = { // npm install commitizen -g window需全局安装
   // type 类型（定义之后，可通过上下键选择）
   types: [
     { value: 'feat', name: 'feat:     新增功能' },
