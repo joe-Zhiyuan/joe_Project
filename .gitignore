@@ -2,7 +2,7 @@
 
 # compiled output
 # 打包文件
-/dist
+# /dist
 /dist-ssr
 /tmp
 /out-tsc
