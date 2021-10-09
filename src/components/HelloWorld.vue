@@ -14,11 +14,17 @@ export default defineComponent({
       })
   }
 })
+const arr: number[] = [0, 1, 2]
+console.log(arr)
 </script>
 
 <template>
   <!-- <h1>{{ msg }}</h1> -->
-
+  <ul>
+    {{
+      item
+    }}
+  </ul>
   <p>
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VSCode</a>
