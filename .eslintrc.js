@@ -22,6 +22,8 @@ module.exports = {
     'import/no-absolute-path': 'off',
     'import/no-extraneous-dependencies': 'off',
     'vue/no-multiple-template-root': 'off',
+    // 关闭提示let未分配变量转为const
+    'prefer-const': 'off',
     'no-param-reassign': [
       'error',
       {
